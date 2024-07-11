@@ -550,13 +550,13 @@ a, a:visited {
 }
 .page-content .single-photo-content {
   display: flex;
-  font-size: 14px;
+  font-size: 18px;
 }
 @media (max-width: 1024px) {
   .page-content .single-photo-content {
     display: flex;
     flex-direction: column-reverse;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0 29px 0 31px;
   }
 }
@@ -632,8 +632,7 @@ a, a:visited {
 }
 @media (max-width: 1024px) {
   .page-content .line {
-    width: 200vh;
-    margin-left: -60px;
+    margin-left: auto;
   }
 }
 .page-content .line hr {
@@ -648,8 +647,7 @@ a, a:visited {
 }
 @media (max-width: 1024px) {
   .page-content .separator {
-    width: 200vh;
-    margin-left: -60px;
+    margin-left: auto;
   }
 }
 .page-content .separator hr {

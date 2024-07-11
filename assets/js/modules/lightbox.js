@@ -1,3 +1,9 @@
+function initializeLightbox() {
+    jQuery(document).on('click', '.fullsize', function() {
+        openLightbox(jQuery(this).closest('.photo-suggested'));
+    });
+
+
 // Sélection des éléments de la lightbox
 const lightbox = jQuery(".lightbox");
 const closeIcon = jQuery(".lightbox__close");
@@ -60,4 +66,6 @@ function showNextPhoto() {
 
     // Afficher les informations de la photo suivante dans la lightbox
     openLightbox(nextPhoto);
+}
+
 }
